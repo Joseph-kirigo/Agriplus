@@ -62,7 +62,7 @@ html{
      margin-top: 5%;
 }
 .heading ,p{
-    display: block;
+    display: inline-block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-top: auto;
@@ -95,6 +95,7 @@ html{
     flex-direction: row;
     justify-content: center;
     margin-top: 5%;
+    font-family: 'poppins', sans-serif;
 }
 .image2{
     padding-right: 10%;
