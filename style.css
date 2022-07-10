@@ -69,6 +69,7 @@ html{
 .button{
     background-color: #ED661F;
     justify-content: left;
+    color: white;
 }
 .rec-card{
     display: flex;
