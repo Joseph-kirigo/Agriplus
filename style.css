@@ -66,6 +66,10 @@ html{
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
+.button{
+    background-color: #ED661F;
+    justify-content: left;
+}
 .rec-card{
     display: flex;
     flex-direction: row;
