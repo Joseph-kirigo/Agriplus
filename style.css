@@ -12,44 +12,52 @@ html{
 }
 .navbar{
     background-color: black;
-}
-.logoname{
-    font-weight: bolder;
     color: white;
-    justify-content: left;
-    cursor: pointer;
-}
-.navlinks ul{
     display: flex;
     flex-direction: row;
-    list-style: none;
     justify-content: space-between;
+    width: 100%;
+}
+.navlinks{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    flex-direction: row;
+    font-weight: 500;
+    justify-content: space-evenly;
+}
+.navli{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+}
+.h-bt{
+    display: flex;
+    flex-direction: row;
+    padding-left: 90%;
+}
+.btn1{
+    display: flex;
+    background-color: transparent;
+    padding-top: 20%;
+}
+.btn2{
+    display: flex;
+    background-color: #ED661F;
     color: white;
-}
-.navlinks li{
-    display: inline-block;
-    padding: 0px 20px;
-}
-.navlinks li a:hover{
-    color: #ED661F;
-}
-button{
-    padding: 9px 25px;
-    background-color: rgba(red);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-}
-button:hover{
-    background-color: rgba(green)
 }
 .heading{
      display: flex;
+     flex-direction: row;
      background-image: url("./images/image\ 1\ \(1\).png");
-     background-size: 200px 200px;
-     background-position: 100%;
-     background-repeat: repeat-x;
+     background-size: contain;
+     width: 100%;
+     height: 35vw;
+     font-size: 1.6vw;
+     line-height: 3vw;
+     margin-top: 5%;
 }
 .rec-card{
     display: flex;
@@ -63,7 +71,7 @@ button:hover{
     justify-content: center;
     margin-top: 5%;
 }
-.image2.1{
+.image2{
     padding-right: 10%;
 }
 .content-2{
