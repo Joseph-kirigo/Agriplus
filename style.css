@@ -26,6 +26,7 @@ html{
     flex-direction: row;
     font-weight: 500;
     justify-content: space-evenly;
+    align-items: center;
 }
 .navli{
     width: 20%;
@@ -59,6 +60,11 @@ html{
      font-size: 1.6vw;
      line-height: 3vw;
      margin-top: 5%;
+}
+.heading ,p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 .rec-card{
     display: flex;
