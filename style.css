@@ -96,7 +96,7 @@ html{
     justify-content: center;
     align-items: center;
     margin-top: 5%;
-    font-family: 'poppins', sans-serif;
+  
 }
 .content-1 h2{
     font-family: 'poppins', sans-serif;
@@ -123,6 +123,9 @@ html{
     display: flex;
     padding-top: 10%;
     justify-content: space-between;
+}
+.bar{
+    background-color: grey;
 }
 .cust-section{
     justify-content: center;
